@@ -56,8 +56,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/onenine-ai/onenine-ai.github.io',
-            label: 'GitHub',
+            href: 'https://ai.onenine.cloud/register',
+            label: 'Visit Our Site',
             position: 'right',
           },
         ],
@@ -78,16 +78,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Support Request',
+                href: 'https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'OneNine AI Site',
+                href: 'https://onenine.cloud/platform',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/onenine-ai/',
               },
             ],
           },
@@ -99,13 +99,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/onenine-ai/onenine-ai.github.io',
+                label: 'Visit Our Site',
+                href: 'https://ai.onenine.cloud',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
