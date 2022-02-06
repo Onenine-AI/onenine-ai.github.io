@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Data Intelligence for Everyone',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        OneNine Cloud is created to reduces entry barriers for individuals and businesses to start using AI and machine learning.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Build Data Driven Skills',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Learn with building something real. Allows non experts to go from data to insights in minutes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Improve Business Outcomes',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Data Driven Insights will help you increase revenue and deliver projects faster than ever using OneNine Cloud. 
       </>
     ),
   },

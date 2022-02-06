@@ -19,45 +19,67 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/onenine-ai/onenine-ai.github.io/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/onenine-ai/onenine-ai.github.io/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  themeConfig:{
+    hideableSidebar: true,
+    autoCollapseSidebarCategories: true,
+    announcementBar: {
+      id: 'new_docs_announcement', // Any value that will identify this message.
+      content:'New Release Announcement: We have released the latest Version of the application. Head over to our page.',
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
       navbar: {
         title: 'OneNine AI Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/one-nine-ai-logo.svg',
+          srcDark: 'img/inverted-one-nine-ai-logo.svg'
         },
         items: [
           {
-            type: 'doc',
+            to: '/docs',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            sidebarID: 'intro',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://ai.onenine.cloud/register',
-            label: 'Visit Our Site',
+            to: 'docs/tutorials',
+            position: 'left',
+            label: 'Tutorials',
+          },
+          {
+            href: 'https://onenine.cloud/ai-academy',
+            label: 'Get Certified for free',
+            position: 'left'
+          },
+          {
+            href: 'https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals',
+            label: 'Support',
+            position: 'left'
+          },
+          {
+            href: 'https://onenine.cloud/release-notes',
+            label: 'Changelog',
+            position: 'right',
+          },
+          {
+            type: 'search',
             position: 'right',
           },
         ],
@@ -70,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/',
               },
             ],
           },
@@ -95,23 +117,19 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'Visit Our Site',
                 href: 'https://ai.onenine.cloud',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OneNine AI . All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;

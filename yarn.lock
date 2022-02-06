@@ -7326,6 +7326,11 @@ use-latest@^1.0.0:
   dependencies:
     use-isomorphic-layout-effect "^1.0.0"
 
+use-window-size-hook@^1.1.22:
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/use-window-size-hook/-/use-window-size-hook-1.1.22.tgz#93e58e17fe67b75a66cef9d31f75cc78b15e162d"
+  integrity sha512-Ga9Me6NL035DldIXRFWlvSCY1LT7s8l4fEb0xUBZcEpPNJ1witYp4a0PKwdhDwQ/8LiMjCsl9EK4CBFn9bmWpA==
+
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
