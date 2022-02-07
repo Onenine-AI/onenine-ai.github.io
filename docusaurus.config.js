@@ -88,11 +88,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Resources',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/',
+              },
+              {
+                label: 'Tutorial',
+                to: '/docs/tutorials/',
               },
             ],
           },
@@ -104,12 +108,8 @@ const config = {
                 href: 'https://onenine.atlassian.net/servicedesk/customer/user/login?destination=portals',
               },
               {
-                label: 'OneNine AI Site',
-                href: 'https://onenine.cloud/platform',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/onenine-ai/',
+                label: 'Visit Our Site',
+                href: 'https://ai.onenine.cloud',
               },
             ],
           },
@@ -117,8 +117,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Visit Our Site',
-                href: 'https://ai.onenine.cloud',
+                label: 'OneNine AI Site',
+                href: 'https://onenine.cloud/platform',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/onenine-ai/',
               },
             ],
           },

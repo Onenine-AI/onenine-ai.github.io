@@ -96,6 +96,11 @@ const sidebars = {
       id: 'faq',
       type: 'doc',
     },
+    {
+      type: "link",
+      label: "OneNine Cloud",
+      href: "https://onenine.cloud",
+    }
   ],
 
   // Tutorials Sidebar
@@ -104,6 +109,74 @@ const sidebars = {
       id: "tutorials-page",
       type: "doc",
     },
+    {
+      label: "Platform Overview",
+      type: "doc",
+      id: "tutorials/platform-overview-tutorial",
+    },
+    {
+      id: "tutorials/data-literacy-tutorial",
+      type: "doc",
+      label: "Data Literacy",
+    },
+    {
+      id: "tutorials/data-exploration-tutorial",
+      type: "doc",
+      label: "Data Exploration",
+    },
+    {
+      label: "Data Visualisation",
+      type: "category",
+      items: [
+        'tutorials/data-viz-tutorial/upload-data-tutorial',
+        'tutorials/data-viz-tutorial/create-charts-bar-or-pie-tutorial',
+        'tutorials/data-viz-tutorial/create-sankey-charts-tutorial',
+        'tutorials/data-viz-tutorial/create-dashboards-tutorial',
+      ]
+    },
+    {
+      label: "AI Projects",
+      type: "category",
+      items: [
+        'tutorials/ai-project-tutorial/regression-tutorial',
+        'tutorials/ai-project-tutorial/classification-tutorial',
+        'tutorials/ai-project-tutorial/recommendation-tutorial',
+        'tutorials/ai-project-tutorial/time-series-tutorial',
+      ]
+    },
+    {
+      label: "Smart Models",
+      type: "category",
+      items: [
+        'tutorials/smart-model-tutorial/smart-model-classification-tutorial',
+        'tutorials/smart-model-tutorial/smart-model-regression-tutorial',
+        'tutorials/smart-model-tutorial/smart-model-nlp-tutorial',
+      ]
+    },
+    {
+      label: "Discovery Projects",
+      type: "category",
+      items: [
+        'tutorials/discovery-project-tutorial/category-tutorial',
+        'tutorials/discovery-project-tutorial/number-tutorial',
+        'tutorials/discovery-project-tutorial/text-tutorial',
+      ]
+    },
+    {
+      label: 'Completed Projects',
+      type: 'doc',
+      id: 'tutorials/completed-project-tutorial',
+    },
+    {
+      label: 'Real Time Predictions',
+      type: 'doc',
+      id: 'tutorials/real-time-predictions-tutorial',
+    },
+    {
+      type: "link",
+      label: "OneNine Cloud",
+      href: "https://onenine.cloud",
+    }
   ]
 };
 
