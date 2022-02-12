@@ -6,10 +6,6 @@ const sidebars = {
       type: 'doc'
     },
     {
-      id: 'what-is-onenine-cloud',
-      type: 'doc',
-    },
-    {
       label: 'Data Literacy',
       type: 'category',
       items: [
