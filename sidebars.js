@@ -19,7 +19,7 @@ const sidebars = {
       items: [
         'data-analysis/data-analysis-intro',
         'data-analysis/one-click-data-analysis',
-        'data-analysis/advanced-data-analysis',
+        'data-analysis/data-analysis-examples',
       ]
     },
     {
