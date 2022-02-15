@@ -19,3 +19,36 @@ sidebar_position: 1
 Discovery project is an easy way to build highly customized neural networks without any coding. This feature takes in your dataset and just by answering a few questions through our wizard, you will obtain valuable insights to your data and build a deep learning model usually created by a data scientist. This allows non experts to go from an idea to model in minutes.
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Discovery](../../static/img/tutorials/discovery-projects/discovery.webp)
+
+## Basic Terminologies
+
+### 1. Model
+  - A model is a specific representation learned from data by applying some machine learning algorithm. A model is also called hypothesis.​
+
+### 2. Feature
+  - A feature is an individual measurable property of our data. A set of numeric features can be conveniently described by a feature vector.
+
+### 3. Target (Label)​
+  - A target variable or label is the value to be predicted by our model.
+
+### 4. Epoch
+  - An epoch is a term used in machine learning and indicates the number of passes of the entire training dataset the machine learning algorithm has completed.
+
+### 5. Learning Rate
+  - Learning rate is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function.
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Learning Rate](../../static/img/tutorials/discovery-projects/learningrates.jpeg)
+
+### 6. Batch
+  - While training a neural network, instead of sending the entire input in one go, we divide in input into several chunks of equal size randomly. Training the data on batches makes the model more generalized as compared to the model built when the entire data set is fed to the network in one go.
+
+### 7. Activation Function
+  - The activation function translates the input signals to output signals. The output after application of the activation function would look something like f(a*Input+b) where f() is the activation function. Some commonly used activation fumctions are: 
+
+  #### 7.1. Sigmoid Function
+    - `sigmoid(x) = 1/(1+e-x)`
+  
+  #### 7.2. ReLU (Rectified Linear Unit) Function
+    - `f(x) = max(x,0)`
+  
+  #### 7.3. Softmax Function
+    - `softmax(x) = e^x / sum(e^x)`

@@ -80,3 +80,5 @@ Autoencoders work by automatically encoding data based on input values, then per
 | Supervised learning model predicts the output. | Unsupervised learning model finds the hidden patterns in data. |
 | In supervised learning, input data is provided to the model along with the output. | In unsupervised learning, only input data is provided to the model. |
 | Supervised learning can be categorized in Classification and Regression problems. | Unsupervised Learning can be classified in Clustering and Associations problems. |
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![DL](../../static/img/tutorials/discovery-projects/DL-.jpg)

@@ -24,7 +24,7 @@ const config = {
         docs: {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/onenine-ai/onenine-ai.github.io/',
+          editUrl: 'https://github.com/Onenine-AI/onenine-ai.github.io/tree/dev',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
