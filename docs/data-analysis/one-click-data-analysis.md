@@ -38,6 +38,9 @@ The Exploration Project feature of OneNineAI platform analyses the uploaded data
     - Includes  high level statistics about the data such as  Dimension of the data, memory size, variable types etc.
 - #### Dataset Insights
     - Includes auto-generated intuitive verbal insights for easy and quick understanding
+
+![Data Overview](../../static/img/tutorials/eda/overview.jpg "Data Overview")
+
 ## Variable Analysis
 ---
 ### Numeric Variables
@@ -52,6 +55,40 @@ In case of numeric variables, the following insights can be obtained.
     - If both sets of quantiles came from the same distribution, we should see the points forming a line that's roughly straight
 - #### Box Plot
     - The Box plot represents the summary statistics of the data in a graphical manner.
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import sum_stats from '../../static/img/tutorials/eda/stats.jpg';
+import kde from '../../static/img/tutorials/eda/kde.jpg';
+import qq from '../../static/img/tutorials/eda/qq.jpg';
+import box from '../../static/img/tutorials/eda/box.jpg';
+
+<Tabs
+  defaultValue="sum_stats"
+  values={[
+    {label: 'Summary Statistics', value: 'sum_stats'},
+    {label: 'KDE Plot', value: 'kde'},
+    {label: 'Normal Q-Q Plot', value: 'qq'},
+    {label: 'Box Plot', value: 'box'},
+  ]}>
+  <TabItem value="sum_stats">
+    <br />
+    <img src={sum_stats} />
+  </TabItem>
+  <TabItem value="kde">    
+    <br />
+    <img src={kde} />
+  </TabItem>
+  <TabItem value="qq">
+    <br />
+    <img src={qq} />
+  </TabItem>
+  <TabItem value="box">
+    <br />
+    <img src={box} />
+  </TabItem>
+</Tabs>
+
 ### Categorical Variables
 In case of categorical variables, the following insights can be obtained
 - #### Stats
@@ -64,9 +101,51 @@ In case of categorical variables, the following insights can be obtained
     - A bar plot representing the frequency of each category in descending order
 - #### Word Length
     - A bar plot of word lengths against the frequency
+
+import stats_cat from '../../static/img/tutorials/eda/stats_cat.jpg';
+import pie from '../../static/img/tutorials/eda/pie.jpg';
+import word_cloud from '../../static/img/tutorials/eda/word_cloud.jpg';
+import word_frequency from '../../static/img/tutorials/eda/word_frequency.jpg';
+import word_length from '../../static/img/tutorials/eda/word_length.jpg';
+
+<Tabs
+  defaultValue="stats_cat"
+  values={[
+    {label: 'Stats', value: 'stats_cat'},
+    {label: 'Pie Chart', value: 'pie'},
+    {label: 'Word Cloud', value: 'word_cloud'},
+    {label: 'Word Frequency', value: 'word_frequency'},
+    {label: 'Word Length', value: 'word_length'},
+  ]}>
+  <TabItem value="stats_cat">
+    <br />
+    <img src={stats_cat} />
+  </TabItem>
+  <TabItem value="pie">    
+    <br />
+    <img src={pie} />
+  </TabItem>
+  <TabItem value="word_cloud">
+    <br />
+    <img src={word_cloud} />
+  </TabItem>
+  <TabItem value="word_frequency">
+    <br />
+    <img src={word_frequency} />
+  </TabItem>
+  <TabItem value="word_length">
+    <br />
+    <img src={word_length} />
+  </TabItem>
+</Tabs>
+
+
 ## Interaction
 ---
-- Dynamic Interactive scatter plots between numeric variables
+- Dynamic Interactive scatter plots between numeric variables. A scatter plot basically uses dots to represent values for two different numeric variables. The position of each dot on the horizontal and vertical axis indicates values for an individual data point
+<br />
+
+![Scatter Plots](../../static/img/tutorials/eda/scatter_plot.jpg "Scatter Plots")
 ## Correlations
 ---
 - Correlation denotes the extent of association between the variables. 
@@ -86,4 +165,47 @@ In case of categorical variables, the following insights can be obtained
     - Kendall’s also does not require continuous data.
 ## Missing Value Analysis
 ---
-- The number of missing values in each variable are represented using the following forms of visualizations such as Bar Chart, Spectrum Chart, Heat Map and Dendogram
+- The number of missing values in each variable are represented using the various forms of visualizations such as Bar Chart, Spectrum Chart, Heat Map and Dendrogram
+- #### Bar Chart
+    - In general, A bar chart represents  data with rectangular bars where the heights or lengths proportional to the values that they represent.
+    - Here, the count of of missing values are represented in terms of percentage
+- #### Spectrum 
+    - Similar to Bar chart, Spectrum also displays the count of missing values in a two dimensional space against the row indices
+
+- #### Heat Map
+    - Generally, A heat map is a data visualization technique that shows magnitude of a missing values as color in two dimensions
+- #### Dendrogram
+    - The dendrogram is a visual representation of the compound missing data. 
+    - The individual compounds are arranged along the bottom of the dendrogram and referred to as leaf nodes.
+    -  Compound clusters are formed by joining individual compounds or existing compound clusters with the join point referred to as a node
+
+import bar from '../../static/img/tutorials/eda/bar.jpg';
+import spectrum from '../../static/img/tutorials/eda/spectrum.jpg';
+import heat from '../../static/img/tutorials/eda/heat.jpg';
+import dendrogram from '../../static/img/tutorials/eda/dendrogram.jpg';
+
+<Tabs
+  defaultValue="bar"
+  values={[
+    {label: 'Bar Chart', value: 'bar'},
+    {label: 'Spectrum Chart', value: 'spectrum'},
+    {label: 'Heat Map', value: 'heat'},
+    {label: 'Dendrogram', value: 'dendrogram'},
+  ]}>
+  <TabItem value="bar">
+    <br />
+    <img src={bar} />
+  </TabItem>
+  <TabItem value="spectrum">    
+    <br />
+    <img src={spectrum} />
+  </TabItem>
+  <TabItem value="heat">
+    <br />
+    <img src={heat} />
+  </TabItem>
+  <TabItem value="dendrogram">
+    <br />
+    <img src={dendrogram} />
+  </TabItem>
+</Tabs>
