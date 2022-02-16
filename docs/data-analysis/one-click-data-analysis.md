@@ -39,7 +39,7 @@ The Exploration Project feature of OneNineAI platform analyses the uploaded data
 - #### Dataset Insights
     - Includes auto-generated intuitive verbal insights for easy and quick understanding
 
-![Data Overview](../../static/img/tutorials/eda/overview.jpg "Data Overview")
+![Data Overview](../../static/img/docs/eda/overview.jpg "Data Overview")
 
 ## Variable Analysis
 ---
@@ -58,10 +58,10 @@ In case of numeric variables, the following insights can be obtained.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import sum_stats from '../../static/img/tutorials/eda/stats.jpg';
-import kde from '../../static/img/tutorials/eda/kde.jpg';
-import qq from '../../static/img/tutorials/eda/qq.jpg';
-import box from '../../static/img/tutorials/eda/box.jpg';
+import sum_stats from '../../static/img/docs/eda/stats.jpg';
+import kde from '../../static/img/docs/eda/kde.jpg';
+import qq from '../../static/img/docs/eda/qq.jpg';
+import box from '../../static/img/docs/eda/box.jpg';
 
 <Tabs
   defaultValue="sum_stats"
@@ -102,11 +102,11 @@ In case of categorical variables, the following insights can be obtained
 - #### Word Length
     - A bar plot of word lengths against the frequency
 
-import stats_cat from '../../static/img/tutorials/eda/stats_cat.jpg';
-import pie from '../../static/img/tutorials/eda/pie.jpg';
-import word_cloud from '../../static/img/tutorials/eda/word_cloud.jpg';
-import word_frequency from '../../static/img/tutorials/eda/word_frequency.jpg';
-import word_length from '../../static/img/tutorials/eda/word_length.jpg';
+import stats_cat from '../../static/img/docs/eda/stats_cat.jpg';
+import pie from '../../static/img/docs/eda/pie.jpg';
+import word_cloud from '../../static/img/docs/eda/word_cloud.jpg';
+import word_frequency from '../../static/img/docs/eda/word_frequency.jpg';
+import word_length from '../../static/img/docs/eda/word_length.jpg';
 
 <Tabs
   defaultValue="stats_cat"
@@ -145,7 +145,7 @@ import word_length from '../../static/img/tutorials/eda/word_length.jpg';
 - Dynamic Interactive scatter plots between numeric variables. A scatter plot basically uses dots to represent values for two different numeric variables. The position of each dot on the horizontal and vertical axis indicates values for an individual data point
 <br />
 
-![Scatter Plots](../../static/img/tutorials/eda/scatter_plot.jpg "Scatter Plots")
+![Scatter Plots](../../static/img/docs/eda/scatter_plot.jpg "Scatter Plots")
 ## Correlations
 ---
 - Correlation denotes the extent of association between the variables. 
@@ -179,10 +179,10 @@ import word_length from '../../static/img/tutorials/eda/word_length.jpg';
     - The individual compounds are arranged along the bottom of the dendrogram and referred to as leaf nodes.
     -  Compound clusters are formed by joining individual compounds or existing compound clusters with the join point referred to as a node
 
-import bar from '../../static/img/tutorials/eda/bar.jpg';
-import spectrum from '../../static/img/tutorials/eda/spectrum.jpg';
-import heat from '../../static/img/tutorials/eda/heat.jpg';
-import dendrogram from '../../static/img/tutorials/eda/dendrogram.jpg';
+import bar from '../../static/img/docs/eda/bar.jpg';
+import spectrum from '../../static/img/docs/eda/spectrum.jpg';
+import heat from '../../static/img/docs/eda/heat.jpg';
+import dendrogram from '../../static/img/docs/eda/dendrogram.jpg';
 
 <Tabs
   defaultValue="bar"

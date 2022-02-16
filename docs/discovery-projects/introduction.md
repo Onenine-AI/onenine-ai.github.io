@@ -18,7 +18,7 @@ sidebar_position: 1
 
 Discovery project is an easy way to build highly customized neural networks without any coding. This feature takes in your dataset and just by answering a few questions through our wizard, you will obtain valuable insights to your data and build a deep learning model usually created by a data scientist. This allows non experts to go from an idea to model in minutes.
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Discovery](../../static/img/tutorials/discovery-projects/discovery.webp)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Discovery](../../static/img/docs/discovery-projects/discovery.webp)
 
 ## Basic Terminologies
 
@@ -36,7 +36,7 @@ Discovery project is an easy way to build highly customized neural networks with
 
 ### 5. Learning Rate
   - Learning rate is a tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function.
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Learning Rate](../../static/img/tutorials/discovery-projects/learningrates.jpeg)
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Learning Rate](../../static/img/docs/discovery-projects/learningrates.jpeg)
 
 ### 6. Batch
   - While training a neural network, instead of sending the entire input in one go, we divide in input into several chunks of equal size randomly. Training the data on batches makes the model more generalized as compared to the model built when the entire data set is fed to the network in one go.

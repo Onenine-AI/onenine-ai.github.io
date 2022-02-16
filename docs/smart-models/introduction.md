@@ -15,7 +15,7 @@ sidebar_position: 1
 
 - Smart enough to choose right algorithm & approach based on your data
 
-![smart-model](../../static/img/tutorials/smart-models/smart-models.png)
+![smart-model](../../static/img/docs/smart-models/smart-models.png)
 
 ## Automation
 User selects just the column to predict​ and everything else is taken care of by us.
@@ -30,4 +30,4 @@ User selects just the column to predict​ and everything else is taken care of 
 
 - Outlier Removal
 
-![automl](../../static/img/tutorials/smart-models/automl.png)
+![automl](../../static/img/docs/smart-models/automl.png)

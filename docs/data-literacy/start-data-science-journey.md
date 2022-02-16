@@ -20,13 +20,13 @@ Here is the table that gives an overall idea of why to choose Machine Learning o
 | Traditional Programming                                                                                             | Machine Learning                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | We feed in `DATA (Input)` + `PROGRAM (logic)`, run it on machine and get output                                     | We feed in `DATA(Input)` + `OUTPUT`, run it on machine during training and the machine creates its own `PROGRAM (logic)`, which can be evaluated while testing |
-| ![Traditional Programming](../../static/img/tutorials/data_literacy/traditional_prog.jpg "Traditional Programming") | ![Machine Learning](../../static/img/tutorials/data_literacy/ml.jpg "Machine Learning")                                                                        |
+| ![Traditional Programming](../../static/img/docs/data_literacy/traditional_prog.jpg "Traditional Programming") | ![Machine Learning](../../static/img/docs/data_literacy/ml.jpg "Machine Learning")                                                                        |
 
 ## Data Science Lifecycle
 
 A typical data science lifecycle involves the following process
 
-![Data Science Lifecycle](../../static/img/tutorials/data_literacy/lifecycle.png "Data Science Lifecycle")
+![Data Science Lifecycle](../../static/img/docs/data_literacy/lifecycle.png "Data Science Lifecycle")
 
 ### 1. Business Understanding
 

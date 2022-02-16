@@ -11,15 +11,15 @@ It is  the process of performing preliminary investigations on the data using st
 
 According to a survey conducted by CrowdFlower, Data Scientists spend an average of 60% of their time in Exploring, Cleaning and organizing the data in various grounds. 
 
-![CrowdFlower Report](../../static/img/tutorials/eda/crowd_flower.jpg "CrowdFlower Report")
+![CrowdFlower Report](../../static/img/docs/eda/crowd_flower.jpg "CrowdFlower Report")
 
 EDA is a experimenational process which might include lots of steps as shown in the image below
 
-![EDA Steps Expanded](../../static/img/tutorials/eda/steps2.jpg "EDA Steps Expanded")
+![EDA Steps Expanded](../../static/img/docs/eda/steps2.jpg "EDA Steps Expanded")
 
 But, a typical data analysis process involves various types of analysis like Univariate Analysis, Bi-variate Analysis, Multivariate Analysis, Missing Value analysis, Variable Interactions etc. These are the standard unavoidable analysis that has to be made on any dataset. 
 
-![EDA Steps](../../static/img/tutorials/eda/steps.jpg "EDA Steps")
+![EDA Steps](../../static/img/docs/eda/steps.jpg "EDA Steps")
 
 ### Variable Identification
 - In this step,  every variable is identifies by discovering its type. 

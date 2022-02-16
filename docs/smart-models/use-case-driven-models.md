@@ -26,7 +26,7 @@ Unlike regression, the output variable of Classification is a category, not a va
 
 The main goal of the Classification algorithm is to identify the category of a given dataset, and these algorithms are mainly used to predict the output for the categorical data.
 
-![classification](../../static/img/tutorials/smart-models/classification.png)
+![classification](../../static/img/docs/smart-models/classification.png)
 
 ## Regression
 ---
@@ -36,7 +36,7 @@ Regression analysis is a statistical method to model the relationship between a 
 
 Regression is a supervised learning technique which helps in finding the correlation between variables and enables us to predict the continuous output variable based on the one or more predictor variables. It is mainly used for prediction, forecasting, time series modeling, and determining the causal-effect relationship between variables.
 
-![regression](../../static/img/tutorials/smart-models/regression.png)
+![regression](../../static/img/docs/smart-models/regression.png)
 
 ### Differences between Regression and Classification
 | Regression | Classification |
@@ -60,7 +60,7 @@ NLP stands for Natural Language Processing, which is a part of Computer Science,
 - It is very time efficient.
 - Most of the companies use NLP to improve the efficiency of documentation processes, accuracy of documentation, and identify the information from large databases.
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![nlp](../../static/img/tutorials/smart-models/nlp.png)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![nlp](../../static/img/docs/smart-models/nlp.png)
 
 ## Anomaly Detection
 ---
@@ -72,4 +72,4 @@ Generally, anomalous data is related to some kind of problems such as bank fraud
 
 Finding an anomaly is the ability to define what is normal? For example, in the below image, the yellow vehicle is an anomaly among all red vehicles.
 
-![anomaly](../../static/img/tutorials/smart-models/anomaly.png)
+![anomaly](../../static/img/docs/smart-models/anomaly.png)
