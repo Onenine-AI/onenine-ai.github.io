@@ -93,6 +93,11 @@ const sidebars = {
       type: 'doc',
     },
     {
+      label: 'Important Definitions',
+      type: 'doc',
+      id: 'important-definitions',
+    },
+    {
       type: "link",
       label: "OneNine Cloud",
       href: "https://onenine.cloud",
