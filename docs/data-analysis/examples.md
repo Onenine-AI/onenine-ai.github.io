@@ -29,7 +29,7 @@ The detailed report provides analysis in all the 5 grounds such as Data Overview
 
 ## Steps
 1.	Go to OneNine Platform
-2.	Click on <Highlight color="#1877F2">Data Exploration</Highlight> > <Highlight color="#1877F2">Exploratory Data Analysis</Highlight> in the sidebar
+2.	Click on <Highlight color="#5e72e4">Data Exploration</Highlight> > <Highlight color="#5e72e4">Exploratory Data Analysis</Highlight> in the sidebar
 3.	Enter the project name
 4.	Upload the project file. 
     You can upload the project file in 3 different ways
@@ -37,5 +37,5 @@ The detailed report provides analysis in all the 5 grounds such as Data Overview
     - Select Data from a database
     - Paste the Github Raw or S3 URL of the data.
 5.	Select the Report Type
-6.	Click on <Highlight color="#1877F2">Upload</Highlight> to see the preview of the data
-7.	Click on <Highlight color="#1877F2">Next</Highlight> to start the generation of the EDA report
+6.	Click on <Highlight color="#5e72e4">Upload</Highlight> to see the preview of the data
+7.	Click on <Highlight color="#5e72e4">Next</Highlight> to start the generation of the EDA report
