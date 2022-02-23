@@ -30,7 +30,6 @@ const sidebars = {
         'data-visualisation/data-visualisation-types',
         'data-visualisation/creating-charts',
         'data-visualisation/creating-dashboards',
-        'data-visualisation/data-visualisation-examples',
       ]
     },
     {
