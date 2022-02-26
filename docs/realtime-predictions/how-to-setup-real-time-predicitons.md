@@ -23,7 +23,7 @@ The table in the Real Time Predictions page lists all the `AI Projects` and `Dis
 
 
 
-![API Page](../../static/img/tutorials/realtime-api/apipage.jpg "API Page")
+![API Page](../../static/img/docs/realtime-api/apipage.jpg "API Page")
 
   1. **Project Name**  
         The title of the project

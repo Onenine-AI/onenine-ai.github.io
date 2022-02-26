@@ -19,6 +19,6 @@ In our platform, we bring in the concept of API's to perform predictions on a mo
 ## What is an API?
 API is the acronym for Application Programming Interface. To put in simple words, an API is a software intermediary that allows two applications to talk to each other. 
 
-![API](../../static/img/tutorials/realtime-api/api.png "API")
+![API](../../static/img/docs/realtime-api/api.png "API")
 
 In the Real Time API Predictions service of the OneNineAI platform, the trained model will be served as an API where in the user can enter the values (or) upload a test file to perform predictions on the model.
