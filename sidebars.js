@@ -81,7 +81,6 @@ const sidebars = {
       label: 'Organising Projects',
       type: 'category',
       items: [
-        'organising-projects/organising-projects-intro',
         'organising-projects/how-to-organise-projects',
         'organising-projects/organising-projects-best-practices',
       ]
