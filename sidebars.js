@@ -6,6 +6,10 @@ const sidebars = {
       type: 'doc'
     },
     {
+      id:'doc-intro',
+      type: 'doc',
+    },
+    {
       label: 'Data Literacy',
       type: 'category',
       items: [
@@ -86,11 +90,6 @@ const sidebars = {
       ]
     },
     {
-      label: 'FAQ',
-      id: 'faq',
-      type: 'doc',
-    },
-    {
       label: 'Important Definitions',
       type: 'doc',
       id: 'important-definitions',
@@ -125,41 +124,23 @@ const sidebars = {
     },
     {
       label: "Data Visualisation",
-      type: "category",
-      items: [
-        'tutorials/data-viz-tutorial/upload-data-tutorial',
-        'tutorials/data-viz-tutorial/create-charts-bar-or-pie-tutorial',
-        'tutorials/data-viz-tutorial/create-sankey-charts-tutorial',
-        'tutorials/data-viz-tutorial/create-dashboards-tutorial',
-      ]
+      type: "doc",
+      id : 'tutorials/data-visualisation-tutorial',
     },
     {
       label: "AI Projects",
-      type: "category",
-      items: [
-        'tutorials/ai-project-tutorial/regression-tutorial',
-        'tutorials/ai-project-tutorial/classification-tutorial',
-        'tutorials/ai-project-tutorial/recommendation-tutorial',
-        'tutorials/ai-project-tutorial/time-series-tutorial',
-      ]
+      type: "doc",
+      id: 'tutorials/ai-project-tutorial',
     },
     {
       label: "Smart Models",
-      type: "category",
-      items: [
-        'tutorials/smart-model-tutorial/smart-model-classification-tutorial',
-        'tutorials/smart-model-tutorial/smart-model-regression-tutorial',
-        'tutorials/smart-model-tutorial/smart-model-nlp-tutorial',
-      ]
+      type: "doc",
+      id : 'tutorials/smart-model-tutorial',
     },
     {
       label: "Discovery Projects",
-      type: "category",
-      items: [
-        'tutorials/discovery-project-tutorial/category-tutorial',
-        'tutorials/discovery-project-tutorial/number-tutorial',
-        'tutorials/discovery-project-tutorial/text-tutorial',
-      ]
+      type: "doc",
+      id : 'tutorials/discovery-project-tutorial',
     },
     {
       label: 'Completed Projects',
