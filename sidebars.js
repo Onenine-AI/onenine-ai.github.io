@@ -95,6 +95,13 @@ const sidebars = {
       id: 'important-definitions',
     },
     {
+      label: 'Use Cases',
+      type: 'category',
+      items: [
+        'use-cases/use-cases-intro'
+      ]
+    },
+    {
       type: "link",
       label: "OneNine Cloud",
       href: "https://onenine.cloud",
