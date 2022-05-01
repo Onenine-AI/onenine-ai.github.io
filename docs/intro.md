@@ -61,7 +61,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
                     <path d="M18 20l3 -3l-3 -3"></path>
                 </svg>
                 <Typography variant="h6" component="h6" style={{ marginLeft: 50, marginBottom: 5}}>
-                Data Visualisation
+                Data Visualization
                 </Typography>
             </div>
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>

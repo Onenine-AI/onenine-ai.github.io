@@ -130,9 +130,9 @@ const sidebars = {
       label: "Data Exploration",
     },
     {
-      label: "Data Visualisation",
+      label: "Data Visualization",
       type: "doc",
-      id : 'tutorials/data-visualisation-tutorial',
+      id : 'tutorials/data-visualization-tutorial',
     },
     {
       label: "AI Projects",
