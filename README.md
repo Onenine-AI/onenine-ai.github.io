@@ -1,6 +1,33 @@
-# Website
-
+# OneNine AI Documentation website
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+## How to Setup for Windows?
+
+### Step 1
+Clone this repository  
+```
+git clone 
+```
+
+### Step 2
+Checkout to the dev branch
+```
+git checkout dev
+```
+
+### Step 3
+Make the changes to the md files in the dev branch and use ```yarn start``` to start a local development server
+
+### Step 4
+Once the changes are done, use the following commands to deploy the local changes
+```
+SET DEPLOYMENT_BRANCH=main
+SET GIT_USER=<Your GitHub username>
+cmd /C "set 'GIT_USER=<Your GitHub username>' && yarn deploy"
+```
+
+
+## How to setup for Linux?
 
 ### Installation
 
