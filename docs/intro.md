@@ -27,7 +27,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5 }}>
             Get familiar with the OneNine Cloud Dashboard.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/platform-overview-tutorial/">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/doc-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -45,7 +45,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Data literacy is a term used to describe an individual’s ability to read, understand, and utilize data in different ways.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/data-literacy-tutorial/">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/data-literacy/data-literacy-intro/">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -63,7 +63,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Data analysis is defined as a process of cleaning, transforming, and modeling data to discover useful information for business decision-making.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/data-exploration-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/data-analysis/data-analysis-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -87,7 +87,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Visualize your data, from simple line charts to highly detailed geospatial charts with few clicks.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/data-visualization-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/data-visualisation/data-visualisation-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -113,7 +113,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Pick and Choose from the marketplace of most popular machine learning models in the world.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/ai-project-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/ai-projects/ai-projects-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -133,7 +133,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Smart enough to choose right algorithm & approach based on your data.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/smart-model-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/smart-models/smart-models-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -155,7 +155,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Discovery project is an easy way to build highly customized neural networks without any coding.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/discovery-project-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/discovery-projects/discovery-projects-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -179,7 +179,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             Access your completed projects.
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/completed-project-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/organising-projects/how-to-organise-projects">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>
@@ -200,7 +200,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
             <Typography variant="body2" component="p" style={{marginBottom: 5}}>
             After successfully building a Machine Learning/Deep Learning/Time series model, the primary question arises, How to use the model in real time?
             </Typography>
-            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/tutorials/real-time-predictions-tutorial">
+            <Button variant="contained" color="primary" style={{textTransform: 'none'}} href="/docs/realtime-predictions/realtime-prediction-intro">
             Read More <ArrowForwardIcon />
             </Button>
         </CardContent>

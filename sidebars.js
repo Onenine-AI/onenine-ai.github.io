@@ -78,7 +78,7 @@ const sidebars = {
       items: [
         'realtime-predictions/realtime-prediction-intro',
         'realtime-predictions/how-to-setup-real-time-predicitons',
-        'realtime-predictions/realtime-prediction-examples',
+        'realtime-predictions/how-to-use',
       ]
     },
     {
