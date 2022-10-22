@@ -6,7 +6,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Step 1
 Clone this repository  
 ```
-[git clone ](https://github.com/Onenine-AI/onenine-ai.github.io.git)
+git clone https://github.com/Onenine-AI/onenine-ai.github.io.git
 ```
 
 ### Step 2
