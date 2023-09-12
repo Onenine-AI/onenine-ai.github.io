@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OneNine AI Docs',
-  tagline: 'Building data driven workforce faster',
+  tagline: 'Building AI and Data driven workforce faster',
   url: 'https://onenine-ai.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -35,8 +35,8 @@ const config = {
 
   themeConfig:{
     hideableSidebar: true,
-    autoCollapseSidebarCategories: true,
-    announcementBar: {
+        autoCollapseSidebarCategories: true,
+          announcementBar: {
       id: 'new_docs_announcement', // Any value that will identify this message.
       content:'New Release Announcement: We have released the latest Version of the application. Head over to our page.',
       backgroundColor: '#fafbfc', // Defaults to `#fff`.
@@ -59,12 +59,22 @@ const config = {
             label: 'Documentation',
           },
           {
-            to: 'docs/tutorials',
+            to: 'https://onenine.ai/platform',
             position: 'left',
-            label: 'Tutorials',
+            label: 'AI Platform',
           },
           {
-            href: 'https://onenine.cloud/ai-academy',
+            to: 'https://onenine.ai/chatbot',
+            position: 'left',
+            label: 'AI Assistant',
+          },
+          // {
+          //   to: 'docs/tutorials',
+          //   position: 'left',
+          //   label: 'Tutorials',
+          // },
+          {
+            href: 'https://onenine.ai/ai-academy',
             label: 'Get Certified for free',
             position: 'left'
           },
@@ -74,8 +84,8 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://onenine.cloud/release-notes',
-            label: 'Changelog',
+            href: 'https://onenine.ai/ai-academy',
+            label: 'Training',
             position: 'right',
           },
           {
@@ -95,8 +105,8 @@ const config = {
                 to: '/docs/',
               },
               {
-                label: 'Tutorial',
-                to: '/docs/tutorials/',
+                label: 'Free AI Course',
+                to: 'https://trailhead.salesforce.com/content/learn/modules/data-fundamentals-for-ai',
               },
             ],
           },
@@ -109,7 +119,7 @@ const config = {
               },
               {
                 label: 'Visit Our Site',
-                href: 'https://ai.onenine.cloud',
+                href: 'https://one.onenine.cloud',
               },
             ],
           },
@@ -118,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'OneNine AI Site',
-                href: 'https://onenine.cloud/platform',
+                href: 'https://onenine.ai',
               },
               {
                 label: 'LinkedIn',

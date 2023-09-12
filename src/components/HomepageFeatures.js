@@ -51,6 +51,9 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
+          <center>
+        <p className="hero__subtitle">We are bringing AI and data literacy to 10 million people worldwide through a partnership with Salesforce.</p>
+        </center>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

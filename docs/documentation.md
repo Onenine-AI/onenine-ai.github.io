@@ -21,10 +21,11 @@ To create a human & AI enabled workforce of the future allowing anyone to build 
  - DATA ANALYSIS
  - DATA VISUALIZAITON
  - AI MODELS MARKETPLACE
+ - AI ASSISTANT
  - SMART MODELS
 
 ### End to End Life Cycle
  - MULTIPLE DATA SOURCE
  - CREATE DATA PRODCUTS
- - ORGANIZE PROJECTS
+ - MANAGE AI PROJECTS
  - SHARE OUTCOMES

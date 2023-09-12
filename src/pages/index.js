@@ -17,15 +17,15 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            Get Started 
+            Documentation 
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tutorials">
-            Tutorials
+            to="https://trailhead.salesforce.com/content/learn/modules/data-fundamentals-for-ai">
+            Free AI Course
           </Link>
         </div>
-      </div>
+              </div>
     </header>
   );
 }

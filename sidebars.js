@@ -82,7 +82,7 @@ const sidebars = {
       ]
     },
     {
-      label: 'Organizing Projects',
+      label: 'Managing Projects',
       type: 'category',
       items: [
         'organising-projects/how-to-organise-projects',
