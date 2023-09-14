@@ -34,9 +34,13 @@ const config = {
   ],
 
   themeConfig:{
-    hideableSidebar: true,
-        autoCollapseSidebarCategories: true,
-          announcementBar: {
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+      announcementBar: {
       id: 'new_docs_announcement', // Any value that will identify this message.
       content:'New Release Announcement: We have released the latest Version of the application. Head over to our page.',
       backgroundColor: '#fafbfc', // Defaults to `#fff`.

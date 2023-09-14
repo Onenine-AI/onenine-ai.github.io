@@ -72,7 +72,7 @@ a.menu__link.menu__link {
 }
 a.menu__link.menu__link--sublist {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
